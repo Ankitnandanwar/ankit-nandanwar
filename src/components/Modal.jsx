@@ -24,7 +24,7 @@ const Modal = ({isVisible, onClose}) => {
         onClick={handleClose} id='wrapper'>
             <div className='w-[900px] h-[600px] overflow-scroll md:h-auto md:overflow-hidden'>
                 <div className='bg-[#141414] px-14 py-8 rounded-md md:flex'>
-                    <div className='w-full md:w-1/2'>
+                    <div className='w-full md:w-full'>
                         <h1 className='text-[#40688A] font-semibold text-xl mb-4 uppercase'>About Me</h1>
                         <p>{HERO.description}</p>
                         <div className='mt-5'>
@@ -83,11 +83,11 @@ const Modal = ({isVisible, onClose}) => {
                         </div>
                     </div>
 
-                    <div className='w-full md:w-1/2 hidden md:block'>
+                    {/* <div className='w-full md:w-1/2 hidden md:block'>
                         <div className='flex justify-center'>
                             <img src={aboutme} alt="Ankit_Nandanwar" className='rounded-3xl w-full h-auto' />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

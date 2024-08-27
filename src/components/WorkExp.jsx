@@ -22,9 +22,11 @@ const WorkExp = () => {
                 transition={{duration: 1, delay: index * 0.2 }}
                 key={index} className='rounded-xl border border-stone-50/30 bg-white/10 p-4'>
                     <h3 className='text-2xl font-semibold'>{exp.title}</h3>
+                    <div className='flex justify-between items-center'>
                     <p className='text-xl'>{exp.company}</p>
                     <p className='text-sm text-stone-300'>{exp.duration}</p>
-                    <p className='text-base mt-2'>{exp.description}</p>
+                    </div>
+                    <p className='text-base mt-2 leading-7'>{exp.description}</p>
                 </motion.div>
             ))}
         </motion.div>

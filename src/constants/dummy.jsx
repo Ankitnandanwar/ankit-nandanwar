@@ -2,6 +2,7 @@ import { GiNunchaku } from "react-icons/gi";
 import projectImage1 from "../assets/project6.jpeg"
 import projectImage2 from "../assets/project5.jpeg"
 import projectImage3 from "../assets/project4.jpeg"
+import bikeImg from '../assets/bikeProjectImg.png'
 import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa6";
 
 
@@ -9,7 +10,7 @@ export const HERO = {
   name: "ANKIT NANDANWAR",
   greet: "Hello there! 👋🏻",
   description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+    "I have over a year of experience in frontend development, specializing in React.js. I excel at collaborating in team environments to deliver high-quality, user-friendly web applications.",
 };
 
 export const NAVIGATION_LINKS = [
@@ -22,42 +23,112 @@ export const NAVIGATION_LINKS = [
 
 
 export const TAGS_NAMES = [
-  { name: "HTML/CSS", color: "#61DAFB" },
-  { name: "JavaScript", color: "#F7DC6F" },
-  { name: "BootStrap", color: "#4CAF50" },
-  { name: "Tailwind", color: "#007ACC" },
-  { name: "React Js", color: "#8BC34A" },
-  { name: "React Redux", color: "#8BC34A" },
-  { name: "Node Js", color: "#8BC34A" },
-  { name: "Express Js", color: "#8BC34A" },
-  { name: "Mongo Db", color: "#8BC34A" },
+  { name: "HTML/CSS" },
+  { name: "JavaScript" },
+  { name: "BootStrap" },
+  { name: "Tailwind CSS" },
+  { name: "React Js" },
+  { name: "React Redux" },
+  { name: "Node Js" },
+  { name: "Express Js" },
+  { name: "Mongo Db" },
+  { name: "React Native" },
+  { name: "Git" },
+
+
 ]
 
 export const PROJECTS = [
+  
   {
     id: 1,
-    name: "MERN AUTH Project",
-    description:
-      "A MERN authentication project that implements user registration, login, and secure access using MongoDB, Express, React, and Node.js with JWT-based authentication.",
-    image: projectImage3,
-    githubLink: "https://mern-auth-4pij.onrender.com",
-  },
-  {
-    id: 2,
     name: "Infosai Portfolio Website",
     description:
       "A portfolio website designed for Infosai Software, showcasing their services, projects, and team, with a sleek, responsive design and seamless user experience.",
     image: projectImage1,
     githubLink: "https://github.com/user/personal-portfolio",
+    projectType:'website',
   },
   {
-    id: 3,
+    id: 2,
     name: "Extreme Digital Solutions",
     description:
       "A marketing portfolio website developed for Extreme Digital Solution, highlighting their digital services, client success stories, and industry expertise with a modern, engaging design.",
     image: projectImage2,
     githubLink: "https://github.com/user/ecommerce-platform",
+    projectType:'website',
   },
+
+  {
+    id: 3,
+    name: "Dairy ERP Application",
+    description:
+      "A marketing portfolio website developed for Extreme Digital Solution, highlighting their digital services, client success stories, and industry expertise with a modern, engaging design.",
+    image: projectImage2,
+    githubLink: "https://github.com/user/ecommerce-platform",
+    projectType:'erp',
+  },
+
+  {
+    id: 4,
+    name: "Bike Application (Admin Panel)",
+    description:
+      "A marketing portfolio website developed for Extreme Digital Solution, highlighting their digital services, client success stories, and industry expertise with a modern, engaging design.",
+    image: projectImage2,
+    githubLink: "https://github.com/user/ecommerce-platform",
+    projectType:'erp',
+  },
+
+  {
+    id: 5,
+    name: "Ecommerce Application (Admin Panel)",
+    description:
+      "A marketing portfolio website developed for Extreme Digital Solution, highlighting their digital services, client success stories, and industry expertise with a modern, engaging design.",
+    image: projectImage2,
+    githubLink: "https://github.com/user/ecommerce-platform",
+    projectType:'erp',
+  },
+
+  {
+    id: 6,
+    name: "Ecommerce Mobile App",
+    description:
+      "A marketing portfolio website developed for Extreme Digital Solution, highlighting their digital services, client success stories, and industry expertise with a modern, engaging design.",
+    image: projectImage2,
+    githubLink: "",
+    apkfile:"../assets/apk.apk",
+    projectType:'app',
+  },
+
+  {
+    id: 7,
+    name: "MERN AUTH Project (Personal Project)",
+    description:
+      "A MERN authentication project that implements user registration, login, and secure access using MongoDB, Express, React, and Node.js with JWT-based authentication.",
+    image: projectImage3,
+    githubLink: "https://mern-auth-4pij.onrender.com",
+    projectType:'website',
+  },
+
+  {
+    id: 8,
+    name: "Virtual Application (Personal Project)",
+    description:
+      "A web app built with React-Vite and Tailwind CSS, showcasing sleek UI/UX design and responsive functionality.",
+    image: projectImage3,
+    githubLink: "https://virtualrp.vercel.app/",
+    projectType:'website',
+  },
+
+  // {
+  //   id: 9,
+  //   name: "Next Js Website (Personal Project)",
+  //   description:
+  //     "A MERN authentication project that implements user registration, login, and secure access using MongoDB, Express, React, and Node.js with JWT-based authentication.",
+  //   image: projectImage3,
+  //   githubLink: "https://mern-auth-4pij.onrender.com",
+  //   projectType:'website',
+  // },
 
 ];
 
@@ -68,14 +139,14 @@ export const EXPERIENCES = [
     company: "Infosai Software",
     duration: "August 2023 - Present",
     description:
-      "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
+      "As Lead Frontend Developer, I worked extensively with React and React Native to build cutting-edge user interfaces. I collaborated with the backend team to ensure seamless integration, contributing to innovative and high-performance web and mobile applications.",
   },
   {
     title: "Trainee Software Engineer",
     company: "Tantransh Solutions",
     duration: "March 2023 - August 2023",
     description:
-      "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
+      "As an intern, I collaborated closely with the design team to deliver a polished and user-friendly UI. Over six months, I built a portfolio website for the company, applying best practices in frontend development and honing my skills in creating seamless user experiences.",
   },
   // {
   //   title: "Rollout Senior Manager",
