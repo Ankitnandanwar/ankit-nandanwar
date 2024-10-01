@@ -6,7 +6,7 @@ import LaptopImage from '../assets/macbook3.png'
 
 
 const Projects = () => {
-    const [selectedFilter, setSelectedFilter] = useState('website');
+    const [selectedFilter, setSelectedFilter] = useState('office');
 
     const handleFilterClick = (filter) => {
         setSelectedFilter(filter);
@@ -23,12 +23,10 @@ const Projects = () => {
                 className='mb-8 text-center text-3xl lg:text-4xl'>Projects
             </motion.h2>
             <div className='my-5'>
-                <button onClick={() => handleFilterClick('website')} 
-                className={`m-3 bg-blue-950 rounded-md p-2 cursor-pointer ${selectedFilter === 'website' ? 'bg-white text-black' : ''}`}>Website</button>
-                <button onClick={() => handleFilterClick('erp')} 
-                className={`m-3 bg-blue-950 rounded-md p-2 cursor-pointer ${selectedFilter === 'erp' ? 'bg-white text-black' : ''}`}>Erp</button>
-                <button onClick={() => handleFilterClick('app')} 
-                className={`m-3 bg-blue-950 rounded-md p-2 cursor-pointer ${selectedFilter === 'app' ? 'bg-white text-black' : ''}`}>App</button>
+                <button onClick={() => handleFilterClick('office')} 
+                className={`m-3 bg-blue-950 rounded-md p-2 cursor-pointer ${selectedFilter === 'office' ? 'bg-white text-black' : ''}`}>Office</button>
+                <button onClick={() => handleFilterClick('personal')}
+                className={`m-3 bg-blue-950 rounded-md p-2 cursor-pointer ${selectedFilter === 'personal' ? 'bg-white text-black' : ''}`}>Personal</button>
             </div>
             <div className='grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3'>
                 {filteredProjects.map((project) => (

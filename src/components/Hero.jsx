@@ -3,7 +3,7 @@ import { HERO } from '../constants/dummy'
 import carImg from "../assets/ankit.jpg"
 import Button from './Button'
 import Modal from './Modal'
-import pdf from "../assets/Ankit_Resume.pdf"
+import pdf from "../assets/Resume_Ankit_Nandanwar.pdf"
 import { motion } from 'framer-motion'
 
 const Hero = () => {

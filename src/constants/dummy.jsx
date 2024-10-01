@@ -1,8 +1,7 @@
-import { GiNunchaku } from "react-icons/gi";
+// import { GiNunchaku } from "react-icons/gi";
 import projectImage1 from "../assets/project6.jpeg"
 import projectImage2 from "../assets/project5.jpeg"
 import projectImage3 from "../assets/project4.jpeg"
-import bikeImg from '../assets/bikeProjectImg.png'
 import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa6";
 
 
@@ -46,8 +45,8 @@ export const PROJECTS = [
     description:
       "A portfolio website designed for Infosai Software, showcasing their services, projects, and team, with a sleek, responsive design and seamless user experience.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
-    projectType:'website',
+    // githubLink: "https://github.com/user/personal-portfolio",
+    projectType:'office',
   },
   {
     id: 2,
@@ -55,49 +54,49 @@ export const PROJECTS = [
     description:
       "A marketing portfolio website developed for Extreme Digital Solution, highlighting their digital services, client success stories, and industry expertise with a modern, engaging design.",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
-    projectType:'website',
+    // githubLink: "https://github.com/user/ecommerce-platform",
+    projectType:'office',
   },
 
   {
     id: 3,
     name: "Dairy ERP Application",
     description:
-      "A marketing portfolio website developed for Extreme Digital Solution, highlighting their digital services, client success stories, and industry expertise with a modern, engaging design.",
+      "A comprehensive dairy ERP application built using React.js, designed to streamline dairy product management, sales tracking, and overall business operations for efficient dairy industry management.",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
-    projectType:'erp',
+    // githubLink: "https://github.com/user/ecommerce-platform",
+    projectType:'office',
   },
 
   {
     id: 4,
     name: "Bike Application (Admin Panel)",
     description:
-      "A marketing portfolio website developed for Extreme Digital Solution, highlighting their digital services, client success stories, and industry expertise with a modern, engaging design.",
-    image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
-    projectType:'erp',
+      "A sleek bike ERP application built using HTML, CSS, and JavaScript, with a strong focus on UI design and responsiveness, ensuring a smooth user experience across all devices.",
+    image: projectImage1,
+    // githubLink: "https://github.com/user/ecommerce-platform",
+    projectType:'office',
   },
 
   {
     id: 5,
-    name: "Ecommerce Application (Admin Panel)",
+    name: "Ecommerce Mobile App",
     description:
-      "A marketing portfolio website developed for Extreme Digital Solution, highlighting their digital services, client success stories, and industry expertise with a modern, engaging design.",
+      "A user-friendly ecommerce mobile app built using React Native, offering seamless shopping experiences with smooth navigation and optimized performance across devices.",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
-    projectType:'erp',
+    githubLink: "",
+    apkfile:"../assets/apk.apk",
+    projectType:'office',
   },
 
   {
     id: 6,
-    name: "Ecommerce Mobile App",
+    name: "Virtual Application (Personal Project)",
     description:
-      "A marketing portfolio website developed for Extreme Digital Solution, highlighting their digital services, client success stories, and industry expertise with a modern, engaging design.",
+      "A web app built with React-Vite and Tailwind CSS, showcasing sleek UI/UX design and responsive functionality.",
     image: projectImage2,
-    githubLink: "",
-    apkfile:"../assets/apk.apk",
-    projectType:'app',
+    githubLink: "https://virtualrp.vercel.app/",
+    projectType:'personal',
   },
 
   {
@@ -107,29 +106,30 @@ export const PROJECTS = [
       "A MERN authentication project that implements user registration, login, and secure access using MongoDB, Express, React, and Node.js with JWT-based authentication.",
     image: projectImage3,
     githubLink: "https://mern-auth-4pij.onrender.com",
-    projectType:'website',
+    projectType:'personal',
   },
+
+ 
 
   {
     id: 8,
-    name: "Virtual Application (Personal Project)",
+    name: "Ecommerce Web App (Personal Project)",
     description:
-      "A web app built with React-Vite and Tailwind CSS, showcasing sleek UI/UX design and responsive functionality.",
-    image: projectImage3,
-    githubLink: "https://virtualrp.vercel.app/",
-    projectType:'website',
+      "A modern ecommerce web app built using React.js, featuring add-to-cart functionality and seamless payment integration using Razorpay and Stripe for a smooth and secure shopping experience.",
+    image: projectImage1,
+    githubLink: "https://ecommerce-frontend-one-beta.vercel.app/",
+    projectType:'personal',
   },
 
-  // {
-  //   id: 9,
-  //   name: "Next Js Website (Personal Project)",
-  //   description:
-  //     "A MERN authentication project that implements user registration, login, and secure access using MongoDB, Express, React, and Node.js with JWT-based authentication.",
-  //   image: projectImage3,
-  //   githubLink: "https://mern-auth-4pij.onrender.com",
-  //   projectType:'website',
-  // },
-
+  {
+    id: 9,
+    name: "Ecommerce Admin Panel (Personal Project)",
+    description:
+      "An efficient ecommerce admin panel built using React.js, enabling administrators to add and remove products, and manage orders with ease. username: admin@2043.com password: ankit2043",
+    image: projectImage2,
+    githubLink: "https://ecommerce-admin-rose-two.vercel.app/",
+    projectType:'personal',
+  },
 ];
 
 
