@@ -2,6 +2,10 @@
 import projectImage1 from "../assets/project6.jpeg"
 import projectImage2 from "../assets/project5.jpeg"
 import projectImage3 from "../assets/project4.jpeg"
+import projectImage4 from "../assets/project1.jpg"
+import projectImage5 from "../assets/project2.jpg"
+import projectImage6 from "../assets/project3.jpg"
+
 import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa6";
 
 
@@ -44,7 +48,7 @@ export const PROJECTS = [
     name: "Infosai Portfolio Website",
     description:
       "A portfolio website designed for Infosai Software, showcasing their services, projects, and team, with a sleek, responsive design and seamless user experience.",
-    image: projectImage1,
+    image: projectImage5,
     // githubLink: "https://github.com/user/personal-portfolio",
     projectType:'office',
   },
@@ -63,7 +67,7 @@ export const PROJECTS = [
     name: "Dairy ERP Application",
     description:
       "A comprehensive dairy ERP application built using React.js, designed to streamline dairy product management, sales tracking, and overall business operations for efficient dairy industry management.",
-    image: projectImage2,
+    image: projectImage6,
     // githubLink: "https://github.com/user/ecommerce-platform",
     projectType:'office',
   },
@@ -83,7 +87,7 @@ export const PROJECTS = [
     name: "Ecommerce Mobile App",
     description:
       "A user-friendly ecommerce mobile app built using React Native, offering seamless shopping experiences with smooth navigation and optimized performance across devices.",
-    image: projectImage2,
+    image: projectImage3,
     githubLink: "",
     apkfile:"../assets/apk.apk",
     projectType:'office',
@@ -94,7 +98,7 @@ export const PROJECTS = [
     name: "Virtual Application (Personal Project)",
     description:
       "A web app built with React-Vite and Tailwind CSS, showcasing sleek UI/UX design and responsive functionality.",
-    image: projectImage2,
+    image: projectImage1,
     githubLink: "https://virtualrp.vercel.app/",
     projectType:'personal',
   },
@@ -104,7 +108,7 @@ export const PROJECTS = [
     name: "MERN AUTH Project (Personal Project)",
     description:
       "A MERN authentication project that implements user registration, login, and secure access using MongoDB, Express, React, and Node.js with JWT-based authentication.",
-    image: projectImage3,
+    image: projectImage6,
     githubLink: "https://mern-auth-4pij.onrender.com",
     projectType:'personal',
   },
@@ -116,7 +120,7 @@ export const PROJECTS = [
     name: "Ecommerce Web App (Personal Project)",
     description:
       "A modern ecommerce web app built using React.js, featuring add-to-cart functionality and seamless payment integration using Razorpay and Stripe for a smooth and secure shopping experience.",
-    image: projectImage1,
+    image: projectImage5,
     githubLink: "https://ecommerce-frontend-one-beta.vercel.app/",
     projectType:'personal',
   },
@@ -126,7 +130,7 @@ export const PROJECTS = [
     name: "Ecommerce Admin Panel (Personal Project)",
     description:
       "An efficient ecommerce admin panel built using React.js, enabling administrators to add and remove products, and manage orders with ease. username: admin@2043.com password: ankit2043",
-    image: projectImage2,
+    image: projectImage4,
     githubLink: "https://ecommerce-admin-rose-two.vercel.app/",
     projectType:'personal',
   },
