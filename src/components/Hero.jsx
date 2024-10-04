@@ -16,10 +16,10 @@ const Hero = () => {
                 initial={{opacity:0, x: -50}}
                 animate={{opacity:1, x:0}}
                 transition={{duration: 1}}
-                className='w-full md:w-1/2'>
-                    <h2 className='my-8 p-2 text-4xl font-bold md:text-5xl lg:text-[7rem]'>{HERO.name}</h2>
+                className='w-full md:w-1/2 my-5 md:my-0'>
+                    <h2 className='mt-12 md:my-8 p-2 text-4xl font-bold md:text-5xl lg:text-[7rem]'>{HERO.name}</h2>
                     <p className='p-2 text-3xl tracking-tighter lg:text-4xl'>{HERO.greet}</p>
-                    <p className='mb-8 p-2 text-xl'>Hi, I'm a passionate software developer with a knack for creating intuitive 
+                    <p className='mb-8 p-2 md:text-xl text-[16px]'>Hi, I'm a passionate software developer with a knack for creating intuitive 
                     and engaging user interfaces. With a keen eye for design and a love for coding, I bring ideas to life with clean, 
                     user-friendly layouts. Let's build something amazing together!</p>
                     <Button

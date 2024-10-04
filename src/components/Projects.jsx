@@ -7,6 +7,11 @@ import LaptopImage from '../assets/macbook3.png'
 
 const Projects = () => {
     const [selectedFilter, setSelectedFilter] = useState('office');
+    const [activeProjectId, setActiveProjectId] = useState(null);
+    
+    const handleCardClick = (projectId) => {
+        setActiveProjectId(activeProjectId === projectId ? null : projectId);
+    };
 
     const handleFilterClick = (filter) => {
         setSelectedFilter(filter);
@@ -35,7 +40,8 @@ const Projects = () => {
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.5 }}
                         whileHover={{ scale: 1.05 }}
-                        key={project.id} className='group relative h-80 overflow-hidden rounded-3xl cursor-pointer'>
+                        key={project.id} className='group relative h-80 overflow-hidden rounded-3xl cursor-pointer'
+                        onClick={() => handleCardClick(project.id)}>
 
                         <img src={LaptopImage} alt="Laptop" className='h-full w-full object-cover' />
 
@@ -47,9 +53,12 @@ const Projects = () => {
                         <motion.div
                             initial={{ opacity: 0 }}
                             whileHover={{ opacity: 1 }}
+                            onClick={{opacity: 1}}
                             transition={{ duration: 0.5 }}
-                            className='absolute inset-0 flex flex-col items-center justify-center text-white
-                            opacity-0 transition-opacity duration-500 px-2'>
+                            className={`absolute inset-0 flex flex-col items-center justify-center text-white
+                            opacity-0 transition-opacity duration-500 px-2 ${
+                                activeProjectId === project.id ? 'opacity-100' : 'opacity-0'
+                              }`}>
                             <h3 className='mb-2 text-xl'>{project.name}</h3>
                             <p className='mb-4 p-4 text-center'>{project.description}</p>
                             {selectedFilter !== 'erp' && (

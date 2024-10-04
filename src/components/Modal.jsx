@@ -20,7 +20,7 @@ const Modal = ({isVisible, onClose}) => {
     }
 
     return (
-        <div className='fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center' 
+        <div className='fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center z-50' 
         onClick={handleClose} id='wrapper'>
             <div className='w-[900px] h-[600px] overflow-scroll md:h-auto md:overflow-hidden'>
                 <div className='bg-[#141414] px-14 py-8 rounded-md md:flex'>
