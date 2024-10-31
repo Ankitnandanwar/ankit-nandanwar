@@ -1,4 +1,5 @@
 // import Certification from "./components/Certification"
+import About from "./components/About"
 import Contact from "./components/Contact"
 // import Education from "./components/Education"
 import Footer from "./components/Footer"
@@ -15,12 +16,13 @@ const App = () => {
         <div className='relative z-10 flex flex-col items-center p-4 space-y-8 container mx-auto'>
             <Hero/>
             <Navbar/>
+            <About/>
             <Projects/>
-            <WorkExp/>
+            {/* <WorkExp/> */}
             {/* <Education/> */}
             {/* <Certification/> */}
-            <Contact/>
-            <Footer/>
+            {/* <Contact/> */}
+            {/* <Footer/> */}
         </div>
     </div>
     </>

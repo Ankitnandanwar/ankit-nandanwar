@@ -1,4 +1,3 @@
-// import { GiNunchaku } from "react-icons/gi";
 import projectImage1 from "../assets/project6.jpeg"
 import projectImage2 from "../assets/project5.jpeg"
 import projectImage3 from "../assets/project4.jpeg"
@@ -6,20 +5,36 @@ import projectImage4 from "../assets/project1.jpg"
 import projectImage5 from "../assets/project2.jpg"
 import projectImage6 from "../assets/project3.jpg"
 
+import Html from "../assets/html.png"
+import Css from "../assets/css.png"
+import Javascript from "../assets/javascript.png"
+import Bootstrap from "../assets/bootstrap.png"
+import Tailwind from "../assets/tailwind.png"
+import Git from "../assets/git.png"
+import Express from "../assets/express.png"
+
+
+import React from "../assets/react.png"
+import Mongo from "../assets/mongoDB.png"
+import Nodejs from "../assets/node.png"
+
+
+
+
 import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa6";
 
 
 export const HERO = {
-  name: "ANKIT NANDANWAR",
-  greet: "Hello there! 👋🏻",
+  name: "Hi, I'am Ankit Nandanwar",
+  greet: "Frontend Developer",
   description:
     "I have over a year of experience in frontend development, specializing in React.js. I excel at collaborating in team environments to deliver high-quality, user-friendly web applications.",
 };
 
 export const NAVIGATION_LINKS = [
+  { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
   { label: "Work Experience", href: "#work" },
-  // { label: "Education", href: "#education" },
   // { label: "Certification", href: "#certificate" },
   { label: "Contact", href: "#contact" },
 ];
@@ -37,8 +52,6 @@ export const TAGS_NAMES = [
   { name: "Mongo Db" },
   { name: "React Native" },
   { name: "Git" },
-
-
 ]
 
 export const PROJECTS = [
@@ -95,7 +108,7 @@ export const PROJECTS = [
 
   {
     id: 6,
-    name: "Virtual Application (Personal Project)",
+    name: "Virtual Application",
     description:
       "A web app built with React-Vite and Tailwind CSS, showcasing sleek UI/UX design and responsive functionality.",
     image: projectImage1,
@@ -105,7 +118,7 @@ export const PROJECTS = [
 
   {
     id: 7,
-    name: "MERN AUTH Project (Personal Project)",
+    name: "MERN AUTH Project",
     description:
       "A MERN authentication project that implements user registration, login, and secure access using MongoDB, Express, React, and Node.js with JWT-based authentication.",
     image: projectImage6,
@@ -117,7 +130,7 @@ export const PROJECTS = [
 
   {
     id: 8,
-    name: "Ecommerce Web App (Personal Project)",
+    name: "Ecommerce Web App",
     description:
       "A modern ecommerce web app built using React.js, featuring add-to-cart functionality and seamless payment integration using Razorpay and Stripe for a smooth and secure shopping experience.",
     image: projectImage5,
@@ -127,7 +140,7 @@ export const PROJECTS = [
 
   {
     id: 9,
-    name: "Ecommerce Admin Panel (Personal Project)",
+    name: "Ecommerce Admin Panel",
     description:
       "An efficient ecommerce admin panel built using React.js, enabling administrators to add and remove products, and manage orders with ease. username: admin@2043.com password: ankit2043",
     image: projectImage4,
@@ -208,3 +221,77 @@ export const SOCIAL_MEDIA_LINKS = [
   //   icon: <FaNaukri fontSize={25} className="hover:opacity-80" />,
   // },
 ];
+
+
+
+export const skillsImg = [
+  {
+    image: Html,
+    alt: "html_logo",
+    tooltipId: "html-tooltip",
+    cont: "HTML"
+  },
+
+  {
+    image: Css,
+    alt: "css_logo",
+    tooltipId: "css-tooltip",
+    cont: "CSS"
+  },
+
+  {
+    image: Javascript,
+    alt: "javascript_logo",
+    tooltipId: "javascript-tooltip",
+    cont: "Javascript"
+  },
+
+  {
+    image: Bootstrap,
+    alt: "bootstrap_logo",
+    tooltipId: "bootstrap-tooltip",
+    cont: "BootStrap"
+  },
+
+  {
+    image: React,
+    alt: "React_logo",
+    tooltipId: "React-tooltip",
+    cont: "React"
+  },
+
+  {
+    image: Mongo,
+    alt: "mongo_logo",
+    tooltipId: "mongo-tooltip",
+    cont: "Mongo"
+  },
+
+  {
+    image: Nodejs,
+    alt: "node_logo",
+    tooltipId: "node-tooltip",
+    cont: "Node"
+  },
+
+  {
+    image: Express,
+    alt: "Express_logo",
+    tooltipId: "Express-tooltip",
+    cont: "Express"
+  },
+
+  {
+    image: Tailwind,
+    alt: "tailwind_logo",
+    tooltipId: "tailwind-tooltip",
+    cont: "Tailwind"
+  },
+
+  {
+    image: Git,
+    alt: "git_logo",
+    tooltipId: "git-tooltip",
+    cont: "Git"
+  },
+]
