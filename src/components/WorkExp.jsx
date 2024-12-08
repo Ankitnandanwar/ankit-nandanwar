@@ -9,7 +9,7 @@ const WorkExp = () => {
         initial={{opacity: 0, y:-20}}
         whileInView={{opacity: 1, y:0 }}
         transition={{duration: 1}}
-        className='mb-8 text-center text-3xl lg:text-4xl tracking-tighter'>Work Experience</motion.h2>
+        className='mb-8 text-center text-3xl lg:text-4xl font-semibold'>Work Experience</motion.h2>
         <motion.div 
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
@@ -20,13 +20,13 @@ const WorkExp = () => {
                 initial={{opacity:0, x: -20}}
                 whileInView={{opacity: 1, x: 0}}
                 transition={{duration: 1, delay: index * 0.2 }}
-                key={index} className='rounded-xl border border-stone-50/30 bg-white/10 p-4'>
+                key={index} className='fontfam rounded-xl border border-[#abdf3a] p-4'>
                     <h3 className='text-2xl font-semibold'>{exp.title}</h3>
                     <div className='flex justify-between items-center'>
-                    <p className='text-xl'>{exp.company}</p>
+                    <p className='text-base mt-1 text-stone-400'>{exp.company}</p>
                     <p className='text-sm text-stone-300'>{exp.duration}</p>
                     </div>
-                    <p className='text-base mt-2 leading-7'>{exp.description}</p>
+                    <p className='mt-2 leading-7'>{exp.description}</p>
                 </motion.div>
             ))}
         </motion.div>

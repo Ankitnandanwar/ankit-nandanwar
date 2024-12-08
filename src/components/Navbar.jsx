@@ -38,7 +38,7 @@ const Navbar = () => {
             {/* desktop menu */}
             <div className='mx-auto hidden max-w-full md:max-w-2xl items-center 
             justify-center rounded-sm
-            bg-cyan-800 py-3 backdrop-blur-lg lg:flex'>
+             py-3 backdrop-blur-lg lg:flex'>
                 <div className='flex items-center justify-between gap-6'>
                     <div>
                         <a href="">
@@ -52,7 +52,7 @@ const Navbar = () => {
                                 NAVIGATION_LINKS.map((item, index) => (
                                     <li key={index}>
                                         <a href={item.href} 
-                                        className='text-base hover:text-gray-300 duration-300 fontfam'
+                                        className='text-base hover:text-[#abdf3a] duration-300 fontfam'
                                         onClick={(e)=> handleLinkClick(e, item.href)}
                                         >{item.label}</a>
                                     </li>

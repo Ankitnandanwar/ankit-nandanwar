@@ -1,7 +1,7 @@
-// import Certification from "./components/Certification"
+import Certification from "./components/Certification"
 import About from "./components/About"
 import Contact from "./components/Contact"
-// import Education from "./components/Education"
+import Education from "./components/Education"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
@@ -17,12 +17,12 @@ const App = () => {
             <Hero/>
             <Navbar/>
             <About/>
-            <Projects/>
-            {/* <WorkExp/> */}
-            {/* <Education/> */}
+            {/* <Projects/> */}
+            <WorkExp/>
+            <Education/>
             {/* <Certification/> */}
-            {/* <Contact/> */}
-            {/* <Footer/> */}
+            <Contact/>
+            <Footer/>
         </div>
     </div>
     </>

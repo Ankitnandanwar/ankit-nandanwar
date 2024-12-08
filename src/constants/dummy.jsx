@@ -32,10 +32,11 @@ export const HERO = {
 };
 
 export const NAVIGATION_LINKS = [
+  { label: "Home", href: "#home" },
   { label: "Skills", href: "#skills" },
-  { label: "Projects", href: "#projects" },
+  // { label: "Projects", href: "#projects" },
   { label: "Work Experience", href: "#work" },
-  // { label: "Certification", href: "#certificate" },
+  { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -180,7 +181,7 @@ export const EDUCATION = [
     institution: "Don Bosco College of Engineering, Fatorda Goa",
     duration: "August 2012 - September 2017",
     description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+      "Focused on web development, programming languages, and database management. Actively involved in coding, where I developed several web applications using HTML, CSS and JavaScript. Completed a senior project on developing an e-commerce platform.",
   },
 ];
 

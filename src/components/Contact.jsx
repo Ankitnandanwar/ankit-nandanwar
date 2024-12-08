@@ -81,7 +81,7 @@ const Contact = () => {
                             autoComplete='off'
                             className='mb-4 w-full appearance-none rounded-lg 
                     border border-stone-50/30 bg-transparent px-3 py-2 text-sm
-                    focus:border-stone-400 focus:outline-none'
+                    focus:border-[#abdf3a] focus:outline-none'
                         />
                         {errors.name && (
                             <motion.p 
@@ -101,7 +101,7 @@ const Contact = () => {
                             autoComplete='off'
                             className='mb-4 w-full appearance-none rounded-lg 
                     border border-stone-50/30 bg-transparent px-3 py-2 text-sm
-                    focus:border-stone-400 focus:outline-none'
+                    focus:border-[#abdf3a] focus:outline-none'
                         />
                         {errors.email && (
                             <motion.p 
@@ -122,7 +122,7 @@ const Contact = () => {
                         autoComplete='off'
                         className='mb-4 w-full appearance-none rounded-lg 
                     border border-stone-50/30 bg-transparent px-3 py-2 text-sm
-                    focus:border-stone-400 focus:outline-none'
+                    focus:border-[#abdf3a] focus:outline-none'
                         rows={6}
                     />
                     {errors.message && (
@@ -134,7 +134,7 @@ const Contact = () => {
                 </div>
 
                 <button type='submit' className={`mb-8 w-full rounded border border-stone-50/30 
-                    bg-stone-200 px-4 py-2 text-sm font-semibold text-stone-900 hover:bg-stone-300
+                    bg-[#abdf3a] px-4 py-2 text-sm font-semibold text-stone-900 hover:bg-stone-300
                     ${isSending ? "cursor-not-allowed opacity-50" : ""}`} disabled={isSending}>
                     <div className='flex items-center justify-center gap-2'>
                         {isSending ? "Sending..." : "Send"}
